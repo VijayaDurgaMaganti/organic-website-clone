@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Website</title>
+    <!---bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--fontawesome link-->
+    <script src="https://kit.fontawesome.com/0b403d2455.js" crossorigin="anonymous"></script>
+    <!--external css-->
+    <link rel="stylesheet" href="./index.css" />
+    <!--favicon-->
+    <link rel="icon"
+        href="https://png.pngtree.com/png-vector/20220705/ourmid/pngtree-100-organic-eco-label-with-leave-png-image_5682683.png" />
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img
+                    src="https://png.pngtree.com/png-vector/20220705/ourmid/pngtree-100-organic-eco-label-with-leave-png-image_5682683.png"
+                    width="20%" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about"><i class="fa-solid fa-star"></i> About </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#payment" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-cart-shopping"></i> Payment
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#payment">Online Payment</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#payment">Offline Payment</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true"><i
+                                class="fa-solid fa-phone"></i> Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--home page-->
+    <section class="bgimg" id="home" style="margin-top: 6%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mt-4">
+                    <h1 class="head1">ORGANIC PRODUCTS</h1>
+                    <p class="para">Healthy and Tasty Products</p>
+                    <button class="btn btn-success one">Best Deal <i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--about page-->
+
+    <section id="about">
+        <div class="container">
+            <h1 class="head2 text-center">ABOUT</h1>
+            <div class="row d-flex flex-row justify-content-center">
+                <div class="col-12 w-50 mb-5">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://img.freepik.com/free-photo/grapes-strawberries-pineapple-kiwi-apricot-banana-whole-pineapple_23-2147968680.jpg?t=st=1717343759~exp=1717347359~hmac=41a14a418c9b7b1f02e36c5d5351c46694c78f1eccb6ca502b523f2e691dc4a5&w=900"
+                                    class="d-block w-100 imageries" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://img.freepik.com/free-photo/jar-with-fresh-honey_144627-17145.jpg?t=st=1717344063~exp=1717347663~hmac=3d861d50b36b7b035c838a9fd189f411bd8f65201361d7d03fd44d8a6e88641c&w=740"
+                                    class="d-block w-100 imageries" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://img.freepik.com/free-photo/various-legumes_53876-47070.jpg?t=st=1717343841~exp=1717347441~hmac=a008ee8a0d6c1f4c193f2074e29957bbf583b4a1b881e47fd74d555031e906cd&w=996"
+                                    class="d-block w-100 imageries" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--products-->
+    <div class="card-group">
+        <div class="card">
+            <img src="https://img.freepik.com/premium-photo/colorful-candies-jelly-marmalade-wooden-box-sweets-old-background-top-view-free-copy-space_187166-54163.jpg?w=996"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Confectionary</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <button class="three"> Shop More <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://img.freepik.com/free-photo/close-up-chocolate-arrangement_23-2148349283.jpg?t=st=1717344687~exp=1717348287~hmac=42a09661fdfcc9017e6885f8844066fdb70a0ea9072bf28a4b72ee2f3d3cb13c&w=996"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Chocolates</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <button class="three"> Shop More <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://img.freepik.com/premium-photo/glasses-fruit-vegetable-juice-with-fruits-white-background_488220-46170.jpg?w=740"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Squashes</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This card has even longer content than the first to show that equal height
+                    action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <button class="three"> Shop More <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container m-4">
+        <h1 class="head2 text-center">Products</h1>
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-2 card">
+                <img src="https://img.freepik.com/premium-photo/roasted-almonds-cardboard-kraft-bag-delicious-peanuts_173815-43959.jpg?w=360"
+                    class="p-2" />
+                <p class="text-center">Chikki</p>
+                <h6 class="text-center">$3</small>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-2 card">
+                <img src="https://img.freepik.com/premium-photo/roasted-almonds-cardboard-kraft-bag-delicious-peanuts_173815-43959.jpg?w=360"
+                    class="p-2" />
+                <p class="text-center">Chikki</p>
+                <h6 class="text-center">$3</small>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-2 card">
+                <img src="https://img.freepik.com/premium-photo/roasted-almonds-cardboard-kraft-bag-delicious-peanuts_173815-43959.jpg?w=360"
+                    class="p-2" />
+                <p class="text-center">Chikki</p>
+                <h6 class="text-center">$3</small>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 card">
+                <img src="https://img.freepik.com/premium-photo/roasted-almonds-cardboard-kraft-bag-delicious-peanuts_173815-43959.jpg?w=360"
+                    class="p-2" />
+                <p class="text-center">Chikki</p>
+                <h6 class="text-center">$3</small>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 card">
+                <img src="https://img.freepik.com/premium-photo/roasted-almonds-cardboard-kraft-bag-delicious-peanuts_173815-43959.jpg?w=360"
+                    class="p-2" />
+                <p class="text-center">Chikki</p>
+                <h6 class="text-center">$3</small>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 card">
+                <img src="https://img.freepik.com/premium-photo/roasted-almonds-cardboard-kraft-bag-delicious-peanuts_173815-43959.jpg?w=360"
+                    class="p-2" />
+                <p class="text-center">Chikki</p>
+                <h6 class="text-center">$3</small>
+            </div>
+        </div>
+    </div>
+
+    <!--payment section-->
+    <section id="payment">
+        <div class="container">
+            <h1 class="head2 text-center">Payment</h1>
+            <div class="row">
+                <div class="col-12 col-md-7 order-2 order-md-1 adjust">
+                    <form>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="eg:Suresh"><br />
+                        <input type="date" class="form-control" id="exampleFormControlInput1"
+                            placeholder="04/06/2024" /><br />
+                        <input type="number" class="form-control" id="exampleFormControlInput1"
+                            placeholder="eg:123"><br />
+                        <input type="number" class="form-control" id="exampleFormControlInput1"
+                            placeholder="eg:999$"><br />
+                        <button class="btn zero"> Payment <i class="fa-brands fa-cc-mastercard"></i></button>
+                    </form>
+                </div>
+
+                <div class="col-12 col-md-5 order-1 order-md-2" style="margin-top: -4%;">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/011/298/019/small/number-10-percent-golden-luxury-png.png"
+                        width="90%" alt="payment" />
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--contact section-->
+    <section id="contact">
+        <div class="container mb-4">
+            <h1 class="head2 text-center">CONTACT</h1>
+            <div class="row">
+                <div class="col-12 col-md-8 mt-4">
+                    <input type="email" class="form-control" id="exampleInputEmail1"
+                        placeholder="eg:suresh@gmail.com"><br />
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="eg:9876543210"><br />
+                    <div class="input-group">
+                        <span class="input-group-text">Comments</span>
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                    </div><br />
+                    <button class="btn zero">Contact Us <i class="fa-regular fa-address-book"></i></button>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.402723155653!2d80.644660774914!3d16.505754084238795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35fb51a430ffad%3A0xe6ed5ede725b304b!2sCodegnan%20IT%20Solutions%3A%20Your%20Best%20Training%20Institute%20for%20Software%20Courses!5e0!3m2!1sen!2sin!4v1717390060929!5m2!1sen!2sin"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--footer section-->
+    <section>
+        <div class="bgimg5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <img src="https://png.pngtree.com/png-vector/20220705/ourmid/pngtree-100-organic-eco-label-with-leave-png-image_5682683.png"
+                            width="10%" /><br />
+                    </div>
+                    <div class="col-12">
+                        <h3 class="text-center ftext"> Organic Website </h3>
+                    </div>
+                </div>
+                <div class="row d-flex flex-row">
+                    <div class="col-12 col-md-3">
+                        <ul class="last">
+                            <li>ContactUs</li>
+                            <li>Terms</li>
+                            <li>Conditions.</li>
+                            <li>Policies</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-md-3">
+                        <ul class="last">
+                            <li>ContactUs</li>
+                            <li>Terms</li>
+                            <li>Conditions</li>
+                            <li>Policies</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-md-3">
+                        <ul class="last">
+                            <li>ContactUs</li>
+                            <li>Terms</li>
+                            <li>Conditions</li>
+                            <li>Policies</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-md-3">
+                        <ul class="last">
+                            <li>ContactUs</li>
+                            <li>Terms</li>
+                            <li>Conditions</li>
+                            <li>Policies</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-12 d-flex flex-row justify-content-center">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-square-snapchat"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <a href="#"> <i class="fa-solid fa-arrow-up"></i></a>
+    <!--bootstrap script bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp
+        4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.navbar {
+    background-color: skyblue;
+    /*border: 2px solid red;*/
+}
+
+.nav-item .nav-link {
+    color: white !important;
+
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* home*/
+.bgimg {
+    background-image: url('https://img.freepik.com/free-photo/supermarket-banner-with-food_23-2149500987.jpg?t=st=1717342457~exp=1717346057~hmac=2bc85b74e8ed3c0904f2b86c5ed52112721259a5cde820da1bf58a8c7e27b468&w=1380');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.head1 {
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+
+.one {
+    width: 30%;
+    font-size: 20px;
+
+}
+
+.para {
+    margin-top: -1%;
+    margin-left: 5%;
+}
+
+.head2 {
+    color: green;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.imageries {
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+
+/*products*/
+.card-img-top {
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #a20721;
+    font-size: 20px;
+}
+
+.card-group {
+    margin-bottom: 3%;
+}
+
+.three {
+    border: 1px solid green;
+    color: #a20721;
+    font-size: 15px;
+}
+
+/*payment*/
+.zero {
+    background-color: #c7324a;
+    color: white;
+    font-size: 25px;
+    width: 50%;
+}
+
+.fa-cc-mastercard {
+    background-color: #189cdf;
+    font-size: 30px;
+}
+
+@media screen and (max-width:768px) {
+    .adjust {
+        margin-top: -5%;
+    }
+}
+
+@media screen and (min-width:769px) {
+    .adjust {
+        margin-top: 5%;
+    }
+}
+
+/*payment section end*/
+
+/*contact us section */
+.input-group-text {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+
+.fa-address-book {
+    background-color: green;
+    font-size: 20px;
+}
+
+/*footer section*/
+.bgimg5 {
+    background-color: #ff6a83;
+}
+
+.ftext {
+    color: white;
+    text-decoration: underline yellow;
+    font-size: 45px;
+}
+
+.last li {
+    color: white;
+    font-weight: lighter;
+}
+
+.fa-linkedin {
+    font-size: 30px;
+    padding-left: 2%;
+    color: #1d60a8;
+}
+
+.fa-youtube {
+    font-size: 30px;
+    padding-left: 2%;
+    color: red;
+}
+
+.fa-facebook {
+    font-size: 30px;
+    padding-left: 2%;
+    color: #3275f0;
+}
+
+.fa-square-snapchat {
+    font-size: 30px;
+    padding-left: 2%;
+    color: yellow;
+}
+
+.fa-square-instagram {
+    font-size: 30px;
+    padding-left: 2%;
+    color: #e62d89;
+}
+
+/*arrow*/
+.fa-arrow-up {
+    color: green;
+    font-size: 30px;
+    border: 1px solid gold;
+    background: gold;
+    float: right;
+    margin-top: -4%;
+    margin-right: 6%;
+}
